@@ -5,8 +5,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.principal p {
+    color: rgb(155, 147, 161);
+    padding: 20px;
+}
 p {
     color: rgb(155, 147, 161);
+    
 }
 
 body {
@@ -28,7 +33,7 @@ h2 {
     text-transform: uppercase;
     color: brown;
     font-weight: bold;
-    padding: 10px 5px;
+    padding: 15px 20px;
 }
 
 h3 {
@@ -212,7 +217,7 @@ table {
 .final {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 20px;
     align-items: end
