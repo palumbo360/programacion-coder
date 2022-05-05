@@ -43,7 +43,13 @@ h3 {
     padding: 20px 5px;
     text-align: center;
 }
+nav div {
+    background-color: rgb(53, 65, 103);
+}
 
+nav {
+    background-color: rgb(53, 65, 103);
+}
 .header img {
     position: relative;
     left: 20%;
@@ -52,9 +58,6 @@ h3 {
 }
 
 .menu ul {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     background-color: rgb(53, 65, 103);
 }
 
@@ -76,6 +79,14 @@ h3 {
     color: aliceblue;
 }
 
+div .table {
+    text-align: center;
+}
+
+div .table table {
+    margin: 0 auto;
+    text-align: left;
+}
 table {
     background-color: #071d32;
     color: #b5ccda;
@@ -96,6 +107,7 @@ table {
 	left: 0;
 	width: 100%;
 	height: 100%;
+    padding: 25px;
 }
 .url-flex div {
     display: flex;
@@ -193,24 +205,23 @@ table {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
+li {
+    color: aliceblue;
+}
+
+.card {
+    background-color: #8896a0;
+}
 
 @media (min-width: 550px){
     .url-flex {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
 }
-.menu {
-    display: flex;
-    justify-content: center;
-}
-.menu ul {
-    display: flex;
-    flex-direction: row;
-    
-}
+
 
 .menu ul li {
-    padding: 5px 10px;
+    padding: 10px 15px;
     list-style-type: none;
 }
 
@@ -225,10 +236,6 @@ table {
 }
 
 @media (min-width: 1000px){
-    .menu ul li {
-        padding: 10px 50px;
-        list-style-type: none;
-    }
     .header img {
         position: relative;
         left: 2%;
